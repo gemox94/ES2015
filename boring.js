@@ -1,6 +1,6 @@
 'use strict';
 
-function fibonacci(number){
+let fibonacci = (number) => {
     if(number==0 || number==1){
         return number;
     }
@@ -9,7 +9,7 @@ function fibonacci(number){
     }
 }
 
-function exponential(number,limit){
+let exponential = (number,limit) => {
         if(limit == 0) {
             return 1;
         } else {
